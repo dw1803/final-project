@@ -1,1 +1,5 @@
-# final-project
+# Dora Wu's Final Project
+
+**For my final project I would like to create an immersive experience that resonates with the juxtaposition of an urban environment within nature’s everlasting presence. When a user finds their way to the page, I want it to feel as if they discovered a city in the middle of the jungle, overgrown with vines, but still bustling with vibrancy. The main navigation page will feel like the main square that forks out into other pages.
+Aesthetically, I plan to incorporate New York City’s use of vibrant colors and noise in between the soothing encapsulation of wind, earth, water, and fire. In my mind, I am inspired by the way oak tree roots emerge through cracked cement sidewalks, the pattern in which ivy climbs skyscrapers, and the sound of the bird that perches on my fire escape every morning. 
+In terms of interactivity, I would like the project to fill like a treasure hunt of senses. When users hover over and click on features in the composition, they will be enveloped in soothing sounds and visual transitions. I want my project to feel like it has depth in layers. These layers will act like curtains, which can be peeled away to reveal hidden moments.**
