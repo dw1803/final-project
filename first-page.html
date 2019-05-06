@@ -1,47 +1,31 @@
-<!--Dora Wu's Final Project 1-->
+<!--Dora Wu's Final Project: First Page-->
 <!DOCTYPE html>
 <html lang="en">
-     <head>
-          <meta charset="utf-8" />
-          <title>First</title>
-          <style>
-               #whole{
-                    background-image: url('media/reflection.jpg');
-                    background-size: cover;
-                    position: absolute;
-                    top: 0;
-                    left:0;
-                    max-height: 70%;
-                    min-width: 100%;
-                    width: auto;
-                    height: auto;
-               }
+    <head>
+		<meta charset="utf-8" />
+		<title>First</title>
+		<link rel="stylesheet" href="css/first.css">
+    </head>
 
-               img{
-                    mix-blend-mode: hard-light;
-                    position: absolute;
-                    min-height: 100%;
-                    min-width:100%;
-                    width:auto;
-                    height:auto;
-               }
+    <body>
+     	<audio src="media/first.mp3" autoplay loop></audio>
+		<div>
+			<img src="media/reflection.jpg">
+			<img src="media/building.jpg">
+			<img src="media/trees.gif"> 
 
-               #nature{
-                    mix-blend-mode: difference;
-                    z-index: 2;
-                    position: absolute;
-                    min-height: 20%;
-                    min-width: 20%;
-               }
-          </style>
+			<svg width="550" height="300"> 
+				<defs>
+					<linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+						<stop offset="0%" stop-color="cyan" stop-opacity="0.9"/>
+						<stop offset="100%" stop-color="red" stop-opacity="0.9`"/>
 
-     </head>
-     <body>       
-          <audio src="media/music.mp3" autoplay loop></audio>
-          <div id="whole">
-               <img id="nature" src="media/reflection.jpg">
-               <img src="media/building.jpg">
-               <img src="media/trees.gif"> 
-          </div>
+					</linearGradient>
+				</defs>
+				<circle cx="150" cy="150" r="120" fill="url(#gradient)"/>
+				<circle cx="400" cy="350" r="50" fill="url(#gradient)"/>	
+				<circle cx="600" cy="550" r="20" fill="url(#gradient)"/>
+			</svg>
+		</div>
     </body>
 </html>
