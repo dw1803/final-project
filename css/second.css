@@ -1,0 +1,44 @@
+/*Dora Wu's Final Project: Second Page*/
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+#one {
+    top: 70px;
+    left: 5px;
+    position: absolute;
+    text-align: center;
+    font-size: 27px;
+    color: ; 
+    background-color: cyan;
+    font-family: 'Bangers';
+}
+
+#two {
+    top: 250px;
+    left: 120px;
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    color: maroon; 
+    background-color: pink;
+    font-family: 'Bangers';
+}
+
+#three {
+    top: 450px;
+    left: 80px;
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    color: white; 
+    background-color: blue;
+    font-family: 'Bangers';
+}
+
+canvas {
+    border: 10px dotted maroon;
+}
+
+body {
+    background-color: mediumorchid;
+    margin: 10px;
+}

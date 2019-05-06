@@ -1,0 +1,56 @@
+/*Dora Wu's Final Project: Navigation Page*/
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+body {
+     margin: 0px;
+     align-items: center;
+     justify-content: center;
+}
+
+h1 {
+     top: 250px;
+     left: 50px;
+     position: absolute;
+     text-align: center;
+     font-size: 100px;
+     color: lightseagreen; 
+     background-color: paleturquoise;
+     font-family: 'Bangers';
+}
+
+.olive {fill: darkolivegreen;}
+.dark {fill: darkgreen;}
+.sea {fill: mediumseagreen;}
+.blue {fill: mediumturquoise;}
+.light {fill: lavender;}
+
+.olive, .dark, .sea, .blue, .light {
+     opacity: 0.5;
+}
+
+.olive:hover, .dark:hover, .sea:hover{
+     opacity: 0.8;
+}
+
+.olive:active, .dark:active, .sea:active {
+     fill: black;
+}
+
+#stars {
+     position: absolute;
+     top: 0px;
+     left: 0px;
+}
+
+#city, svg {
+     position: absolute;
+     top: 0px;
+     left: 0px;
+}
+
+#control {
+     position: absolute;
+     top: 700px;
+     left: 10px;
+     z-index: 100;
+}

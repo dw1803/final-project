@@ -1,0 +1,19 @@
+/*Dora Wu's Final Project: First Page*/
+img, svg {
+    mix-blend-mode: difference;
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    width:auto;
+	height:auto;
+}
+
+@keyframes rotation {
+	0% {transform: rotate(0deg);}
+	50% {transform: rotate(90deg);}
+	100% {transform: rotate(0deg);}
+}
+
+circle {
+	animation: rotation 5s infinite linear normal;
+}ß

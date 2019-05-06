@@ -1,0 +1,77 @@
+/*Dora Wu's Final Project: Third Page*/
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+#container {display: flex;}
+
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.city {
+    padding: 5px;
+    animation: rotation 2s infinite linear normal;
+    animation-duration: 2s;
+}
+
+#one {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+#two {
+    position: absolute;
+    top: 300px;
+    left: 10px;
+    opacity: 0.7;
+}
+
+#three {
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    opacity: 0.8;
+}
+
+#four {
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    opacity: 0.9;
+}
+
+#five {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    opacity: 1;
+}
+
+#six {
+    position: absolute;
+    top: 20px;
+    left: 900px;
+    opacity: 0.7;
+}
+
+#seven {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    opacity: 0.4;
+}
+
+#eight {
+    position: absolute;
+    top: 500px;
+    left: 800px;
+    opacity: 0.8;
+}
